@@ -68,10 +68,4 @@ public class Radio {
         this.minVolume = 0;
     }
 
-    public Radio(int stationsCount, int volumeCount) {
-        this.maxVolume = volumeCount - 1;
-        this.minVolume = volumeCount + 1;
-
-    }
-
 }
